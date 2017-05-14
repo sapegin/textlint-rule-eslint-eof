@@ -1,0 +1,19 @@
+{
+  "name": "textlint-rule-eslint-eof",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "textlint": "textlint --fix Readme.md"
+  },
+  "keywords": [],
+  "author": "Artem Sapegin <artem@sapegin.ru> (http://sapegin.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "prettier": "^1.3.1",
+    "textlint": "^8.0.1",
+    "textlint-rule-eslint": "^1.2.0"
+  }
+}
